@@ -1,5 +1,5 @@
 # Jentis-Project
-We are adding logging tools as well as monitoring tools like Prometheus and Grafana while launching a basic microservice in Kubernetes.
+We are getting logs of our cluster as well as monitoring it using tools like Prometheus and Grafana while launching a basic microservice in Kubernetes.
 
 
 # Goals of our Project:
