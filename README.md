@@ -60,7 +60,7 @@ We are adding logging tools as well as monitoring tools like Prometheus and Graf
     ![Alt text](<Images/all component running .png>)
 
 
-    Also Using the command `minikube service nodeapp-service`, we should access our application through a LoadBalancer by populating our service IP of our application. This will allows us to access our application from outside of the cluster.
+    Also Using the command `minikube service nodeapp-service`, we should access our application through a LoadBalancer by populating our service URL of our application. This will allows us to access our application from outside of the cluster.
     
     ![Alt text](<Images/minikube service nodeapp-service.png>)
     
@@ -148,6 +148,7 @@ We will go ahead and up install prometheus following this link [Prometheus](http
 
 9. Let's use the URL from our svc of our stable-grafana with the port forwarded to access our Grafana as well. Check out our grafana available below.
 
+    ![Alt text](<Images/grafana done.png>)
      
     Voila! we can access our grafana. 
 
