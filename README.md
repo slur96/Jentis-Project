@@ -53,11 +53,15 @@ We are adding logging tools as well as monitoring tools like Prometheus and Graf
    
       - Now that we are aware of what a pod is, let's talk about services. *A service is a network service that exposes an application that is executing on a group of pods.*
 
+    We will ensure security protocols by to deny all incoming traffic and allow all outgoing traffic so we will allow a few below for our cluster and what services we will use:
 
+    ![Alt text](<Images/firewall for our application.png>)
+    ![Alt text](<Images/open for our application.png>)
 
     Using `kubectl get all`, we can verify whether our pods and services within our cluster are operational. Because this cluster is still not ready for production.
     
     ![Alt text](<Images/all component running .png>)
+    
 
 
     Also Using the command `minikube service nodeapp-service`, we should access our application through a LoadBalancer by populating our service URL of our application. This will allows us to access our application from outside of the cluster.
